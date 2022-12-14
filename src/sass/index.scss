@@ -1,2 +1,16 @@
 @import './common';
-@import './example';
+
+.start {
+  background-color: #53bb2a;
+}
+.start,
+.stop {
+  font-size: 30px;
+  border: none;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+}
+.stop {
+  background-color: rgb(255, 0, 0);
+}
