@@ -1,2 +1,0 @@
-const t=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],e=document.querySelector("#change-color"),o=document.querySelector('button[data-action="start"]'),r=document.querySelector('button[data-action="stop"]');let a=null;o.addEventListener("click",(()=>{o.setAttribute("disabled",!0),a=setInterval((()=>{var o,r;e.style.backgroundColor=t[(o=0,r=t.length,Math.floor(Math.random()*(r-o+1)+o))]}),1e3)})),r.addEventListener("click",(()=>{o.removeAttribute("disabled"),clearInterval(a)}));
-//# sourceMappingURL=index.01b47645.js.map
